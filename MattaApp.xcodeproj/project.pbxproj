@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52996102B32FE4200864885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A529960F2B32FE4200864885 /* ContentView.swift */; };
+		A52996122B32FE7200864885 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52996112B32FE7200864885 /* DestinationListingView.swift */; };
+		A52996142B32FE9100864885 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52996132B32FE9100864885 /* EditDestinationView.swift */; };
+		A52996162B32FEBD00864885 /* PlansForDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52996152B32FEBD00864885 /* PlansForDestinationView.swift */; };
+		A52996182B32FEE500864885 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52996172B32FEE500864885 /* Destination.swift */; };
 		A5AEEC162B2F1D750028EC4B /* MattaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC152B2F1D750028EC4B /* MattaAppApp.swift */; };
-		A5AEEC182B2F1D750028EC4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC172B2F1D750028EC4B /* ContentView.swift */; };
 		A5AEEC1A2B2F1D760028EC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AEEC192B2F1D760028EC4B /* Assets.xcassets */; };
 		A5AEEC1D2B2F1D760028EC4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AEEC1C2B2F1D760028EC4B /* Preview Assets.xcassets */; };
-		A5AEEC1F2B2F1D760028EC4B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC1E2B2F1D760028EC4B /* Persistence.swift */; };
 		A5AEEC222B2F1D760028EC4B /* MattaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC202B2F1D760028EC4B /* MattaApp.xcdatamodeld */; };
-		A5AEEC2E2B2F1D760028EC4B /* MattaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC2D2B2F1D760028EC4B /* MattaAppTests.swift */; };
-		A5AEEC382B2F1D760028EC4B /* MattaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC372B2F1D760028EC4B /* MattaAppUITests.swift */; };
-		A5AEEC3A2B2F1D760028EC4B /* MattaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC392B2F1D760028EC4B /* MattaAppUITestsLaunchTests.swift */; };
+		A5AEEC472B2F1F700028EC4B /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEEC462B2F1F700028EC4B /* SplashPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +37,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A529960F2B32FE4200864885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A52996112B32FE7200864885 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		A52996132B32FE9100864885 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		A52996152B32FEBD00864885 /* PlansForDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansForDestinationView.swift; sourceTree = "<group>"; };
+		A52996172B32FEE500864885 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		A5AEEC122B2F1D750028EC4B /* MattaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MattaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AEEC152B2F1D750028EC4B /* MattaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattaAppApp.swift; sourceTree = "<group>"; };
-		A5AEEC172B2F1D750028EC4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5AEEC192B2F1D760028EC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AEEC1C2B2F1D760028EC4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A5AEEC1E2B2F1D760028EC4B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A5AEEC212B2F1D760028EC4B /* MattaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MattaApp.xcdatamodel; sourceTree = "<group>"; };
 		A5AEEC232B2F1D760028EC4B /* MattaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MattaApp.entitlements; sourceTree = "<group>"; };
 		A5AEEC242B2F1D760028EC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5AEEC292B2F1D760028EC4B /* MattaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MattaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5AEEC2D2B2F1D760028EC4B /* MattaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattaAppTests.swift; sourceTree = "<group>"; };
 		A5AEEC332B2F1D760028EC4B /* MattaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MattaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5AEEC372B2F1D760028EC4B /* MattaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattaAppUITests.swift; sourceTree = "<group>"; };
-		A5AEEC392B2F1D760028EC4B /* MattaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5AEEC462B2F1F700028EC4B /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				A5AEEC142B2F1D750028EC4B /* MattaApp */,
-				A5AEEC2C2B2F1D760028EC4B /* MattaAppTests */,
-				A5AEEC362B2F1D760028EC4B /* MattaAppUITests */,
 				A5AEEC132B2F1D750028EC4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,9 +101,13 @@
 			isa = PBXGroup;
 			children = (
 				A5AEEC152B2F1D750028EC4B /* MattaAppApp.swift */,
-				A5AEEC172B2F1D750028EC4B /* ContentView.swift */,
+				A529960F2B32FE4200864885 /* ContentView.swift */,
+				A52996112B32FE7200864885 /* DestinationListingView.swift */,
+				A52996132B32FE9100864885 /* EditDestinationView.swift */,
+				A52996152B32FEBD00864885 /* PlansForDestinationView.swift */,
+				A52996172B32FEE500864885 /* Destination.swift */,
+				A5AEEC462B2F1F700028EC4B /* SplashPage.swift */,
 				A5AEEC192B2F1D760028EC4B /* Assets.xcassets */,
-				A5AEEC1E2B2F1D760028EC4B /* Persistence.swift */,
 				A5AEEC232B2F1D760028EC4B /* MattaApp.entitlements */,
 				A5AEEC242B2F1D760028EC4B /* Info.plist */,
 				A5AEEC202B2F1D760028EC4B /* MattaApp.xcdatamodeld */,
@@ -118,23 +122,6 @@
 				A5AEEC1C2B2F1D760028EC4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A5AEEC2C2B2F1D760028EC4B /* MattaAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5AEEC2D2B2F1D760028EC4B /* MattaAppTests.swift */,
-			);
-			path = MattaAppTests;
-			sourceTree = "<group>";
-		};
-		A5AEEC362B2F1D760028EC4B /* MattaAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A5AEEC372B2F1D760028EC4B /* MattaAppUITests.swift */,
-				A5AEEC392B2F1D760028EC4B /* MattaAppUITestsLaunchTests.swift */,
-			);
-			path = MattaAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +254,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AEEC1F2B2F1D760028EC4B /* Persistence.swift in Sources */,
 				A5AEEC222B2F1D760028EC4B /* MattaApp.xcdatamodeld in Sources */,
-				A5AEEC182B2F1D750028EC4B /* ContentView.swift in Sources */,
+				A5AEEC472B2F1F700028EC4B /* SplashPage.swift in Sources */,
+				A52996102B32FE4200864885 /* ContentView.swift in Sources */,
+				A52996142B32FE9100864885 /* EditDestinationView.swift in Sources */,
 				A5AEEC162B2F1D750028EC4B /* MattaAppApp.swift in Sources */,
+				A52996122B32FE7200864885 /* DestinationListingView.swift in Sources */,
+				A52996182B32FEE500864885 /* Destination.swift in Sources */,
+				A52996162B32FEBD00864885 /* PlansForDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AEEC2E2B2F1D760028EC4B /* MattaAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AEEC3A2B2F1D760028EC4B /* MattaAppUITestsLaunchTests.swift in Sources */,
-				A5AEEC382B2F1D760028EC4B /* MattaAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct MattaAppApp: App {
-    let persistenceController = PersistenceController.shared
+  @State private var showSplash = true
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
+            if showSplash {
+                SplashView(showSplash: $showSplash)
+            } else {
+                ContentView()
+    
+            }
+        } .modelContainer(for: Destination.self)
     }
 }
+
+
