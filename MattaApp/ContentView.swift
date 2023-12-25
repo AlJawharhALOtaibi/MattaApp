@@ -11,9 +11,9 @@ import SwiftUI
 var greeting: String {
     let hour = Calendar.current.component(.hour, from: Date())
     switch hour {
-    case 6..<12: return "Good morning!"
-    case 12..<18: return "Good afternoon!"
-    default: return "Good evening!"
+    case 6..<12: return "Good Morning!"
+    case 12..<18: return "Good Afternoon!"
+    default: return "Good Evening!"
     }
 }
 
@@ -28,13 +28,15 @@ struct ContentView: View {
         NavigationStack(path: $path) {
             HStack {
                 RoundedRectangle(cornerRadius: 10)
-                    .frame(width: 6, height: 50)
+                    .frame(width: 4, height: 25)
+                    .padding(.top,20)
                     .foregroundColor(.orange)
                     .accessibility(hidden: true)
                
                 Text("Your Trips")
-                    .font(.title)
+                    // .font(.title)
                     .fontWeight(.semibold)
+                    .padding(.top,20)
                   //  .padding(.leading)
                     .accessibility(label: Text("Your Trips"))
             }

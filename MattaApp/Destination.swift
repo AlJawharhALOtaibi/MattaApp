@@ -18,7 +18,8 @@ class Destination {
     var time: Date
     var startDate:Date
     var endDate:Date
-    //@Relationship(deleteRule: .cascade) var plans: [Plan]
+   // @Relationship(deleteRule: .cascade) var plans: [Plan] = []
+    @Relationship var plans: [Plan] = []
     
     init(name: String = "", details: String = "", date: Date = .now, priority: Int = 2, time: Date = .now, startDate: Date = .now, endDate: Date = .now) {
         self.name = name
@@ -28,9 +29,9 @@ class Destination {
         self.time = time
         self.startDate = startDate
         self.endDate = endDate
+       
     }
 }
-
 
 @Model
 class Plan {
@@ -38,12 +39,13 @@ class Plan {
     var emoji: String
     var time: Date
     var details: String
+    @Relationship var destination: Destination
     
-    init(name: String, emoji: String, time: Date, details: String) {
+    init(name: String = "", emoji: String = "", time: Date = Date(), details: String = "", destination: Destination) {
         self.name = name
         self.emoji = emoji
         self.time = time
         self.details = details
-    
+        self.destination = destination
     }
 }
